@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+  <p>My Fictional Phone Number: 555-555-0123</p>
+  <p>My Fictional Email: kevin@email.com</p>
+  <a href="index.html">Home Page</a>
+
+  <form action="mailto:kcanlas117@gmail.com" method="post" enctype="text/plain">
+    <!-- The action="" determines the function of your form once you click Submit -->
+    <!-- method="post" causes our site to post the input data to our mail client -->
+    <!-- enctype="text/plain" removes any HTML codes in the email -->
+    <!-- Lesson 26 - Forms in Practice - Create a Contact Me Form -->
+    <!-- More info about Forms/Inputs can be found here: -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="50"></textarea><br>
+    <!-- textarea creates a text book where rows is the height and cols is the width -->
+    <hr>
+    <input type="submit">
+    <!-- You can use input type="file" for the PDS Website for Resume Submissions -->
+  </form>
+</body>
+
+</html>

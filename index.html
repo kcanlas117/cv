@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Chooses the usable unicode list for your site. utf-8 is default Arabic alphanumerics/symbols. -->
+  <!-- Unicode also includes Emojis -->
+  <!-- You can copy/paste from the unicode-table site. -->
+  <!-- NOTE: Read up on the meta HTML Attribute "description". -->
+  <!-- !!!This Attribute helps Search Engines find your Website and affects SEO!!! -->
+  <title>Kevin's Personal Website</title>
+  <!-- Shows up on your browser's tab -->
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <img src="images\Kevin Canlas Profile Picture.jpg" alt="Kevin Canlas Profile Picture">
+        <!-- "alt" text is important for Search Engine Optimization -->
+        <!-- You can use a website link for the image source below, but it is best practice to link from your index.html's folder. -->
+        <!-- It will automatically search the current working directory for your picture if you give it a local filename. -->
+      </td>
+      <td>
+        <h1>Kevin Canlas</h1>
+        <p><strong>Web Developer</strong></p>
+        <!-- <i> vs <em> -->
+        <!-- <i>: Italicizes text, STYLE ONLY -->
+        <!-- <em>: Emphasizes and Italicizes text -->
+        <!-- <b> vs <strong> -->
+        <!-- <b>: Bolds text, STYLE ONLY -->
+        <!-- <strong>: Emphasizes and Bolds text -->
+        <!-- It's recommended to use EMPHASIZE and STRONG over Italicize and Bold  -->
+        <p>Automotive CAD Designer</p>
+        <p>Fitness Enthusiast</p>
+        <p>Amateur Photographer</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Books I've Read</h3>
+  <ul>
+    <li>Models: Attract Women Through Honesty by <em>Mark Manson</em></li>
+    <li>The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life by <em>Mark Manson</em></li>
+    <li>The Power of Habit by <em>Charles Duhigg</em></li>
+    <li>Atomic Habits: Tiny Changes, Remarkable Results by <em>James Clear</em></li>
+    <li>12 Rules for Life: An Antidoe to Chaos by <em>Jordan B. Peterson</em></li>
+    <li>I Can't Make This Up by <em>Kevin Hart</em></li>
+    <li>The 10 Pillars of Wealth: Mind-Sets of the World's Richest People by <em>Alex Becker</em></li>
+    <li>Never Split the Difference: Negotiating as if Your Life Depended On It by <em>Chris Voss</em></li>
+    <li>I Will Teach You to Be Rich: No Guilt. No Excuses. No B.S. Just a 6-Week Program That Works (Second Edition) by <em>Ramit Sethi</em></li>
+    <li>Rich Dad Poor Dad: What the Rich Teach Their Kids About Money - That the Poor and Middle Class Do Not! by <em>Robert T. Kiyosaki</em></li>
+    <li>The Complete Software Developer's Career Guide by <em>John Sonmez</em></li>
+    <li>The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich by <em>Timothy Ferris</em></li>
+    <li>The Dip by <em>Seth Godin</em></li>
+  </ul>
+  <!-- <ul></ul> Starts an Unordered List (bullet points) -->
+  <!-- <ol></ol> Starts an Ordered List (numbered lists) -->
+  <!-- <li></li> Creates a List Item for Unordered Lists and Ordered Lists-->
+
+  <!-- <dl class=""></dl> Starts an Item&Description List -->
+  <!-- <dt></dt> Creates the Item -->
+  <!-- <dd></dd> Creates the Description of the above Item-->
+  <hr>
+  <h3>Work Experience Table</h3>
+  <table>
+    <!-- NOTE: Many HTML Attributes for layouts are not recommended now. CSS/JS can do it better! -->
+    <!-- border="2" creates a basic border around and between the cells of your table. -->
+    <thead>
+      <!-- Table Head, used to section off code -->
+      <tr>
+        <!-- Table Row -->
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table Body, used to section off code -->
+      <tr>
+        <!-- Table Row -->
+        <td>2014-Present</td>
+        <!-- href means hyperlink reference -->
+        <td>Automotive Designer at Productive Design Services</td>
+      </tr>
+      <tr>
+        <!-- Table Row -->
+        <td>2008-2014</td>
+        <td>Assistant Black Belt at Art Mason's Martial Arts Institute</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+<h3>Languages Used</h3>
+<table cellspacing="20">
+  <tr>
+    <td>Python</td>
+    <td>⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>HTML & CSS</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>JavaScript & Node.JS</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+</table>
+<hr>
+<h3>Skills</h3>
+<table cellspacing="20">
+  <tr>
+    <td>Web Development</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Android Development</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Adobe Xd</td>
+    <td>⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Photography</td>
+    <td>⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Adobe Lightroom</td>
+    <td>⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Adobe Photoshop</td>
+    <td>⭐⭐⭐</td>
+  </tr>
+</table>
+  <hr>
+  <p><a href="hobbies.html">My Hobbies</a></p>
+  <!-- Links to our hobbies.html page found in the current working directory along with index.html -->
+  <p><a href="contact.html">Contact Me</a></p>
+
+  <!-- <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download the Stanford HTML Cheat Sheet</a>
+    Some anchor tags no longer work starting in 2018 and must be done through Server Side coding
+    The download attribute is one of them -->
+</body>
+
+</html>
